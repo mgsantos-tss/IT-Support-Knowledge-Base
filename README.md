@@ -26,7 +26,7 @@
    - `netsh winsock reset`
    - `ipconfig /flushdns`
 
-   # Incident Report: Outlook Integration Error
+# Incident Report: Outlook Integration Error
 
 **Ticket ID:** #99821  
 **Priority:** Medium  

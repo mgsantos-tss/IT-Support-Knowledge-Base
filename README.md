@@ -42,7 +42,6 @@ User reported that Outlook stays in "Disconnected" mode despite having a stable 
 
 ### Resolution
 The conflicting Add-in was disabled, and the Office Installation was repaired via the Control Panel. 
-
 **Result:** Outlook connected and synced successfully.
 ---
 ## Topic: Software & Productivity Suite Repairs

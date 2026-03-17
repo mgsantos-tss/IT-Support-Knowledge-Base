@@ -87,3 +87,18 @@ The conflicting Add-in was disabled, and the Office Installation was repaired vi
 ### Workstation Security
 - **Locking Screen**: Remind users to press `Win + L` every time they leave their desk.
 - **Updates**: Ensure "Automatic Updates" are enabled to patch critical vulnerabilities.
+---
+
+## **Topic: VoIP & Softphone Troubleshooting**
+
+### **One-Way Audio or No Sound**
+**Scenario:** User can hear the caller, but the caller cannot hear the user (or vice-versa).
+1. **Audio Routing**: Check app settings (Teams/Zoom) to ensure the correct Input/Output device is selected.
+2. **Firewall/UDP**: High probability of a firewall blocking UDP traffic.
+3. **Action**: Run `netsh winsock reset` to clear the networking catalog.
+
+### **Dropped Calls or Robotic Voice**
+**Scenario:** Call disconnects randomly or audio quality is poor.
+1. **Connectivity**: Verify the user is on a wired connection. UDP is sensitive to Wi-Fi interference.
+2. **Diagnostics**: Execute `ping -t 8.8.8.8` to monitor for packet loss.
+3. **SOP**: If packet loss exceeds 5%, escalate to the Network Team (L2).

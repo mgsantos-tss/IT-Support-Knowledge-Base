@@ -41,7 +41,7 @@ User reported that Outlook stays in "Disconnected" mode despite having a stable 
 3. Found a corrupted Add-in causing the hang.
 
 ### Resolution
-Disabled the conflicting Add-in and repaired the Office Installation via Control Panel. 
+### Disabled the conflicting Add-in and repaired the Office Installation via Control Panel. 
 **Result:** Outlook connected and synced successfully.
 ---
 ## Topic: Software & Productivity Suite Repairs
